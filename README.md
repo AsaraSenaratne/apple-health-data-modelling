@@ -1,10 +1,8 @@
-**Semantic Modelling of Apple Health Data Using COPE (Chronic Observation and Progression Events) Ontology**
+**Semantic Temporal Modelling of Wearable Device Data**
 
 **Overview**
 
-This repository provides an end-to-end pipeline that converts Apple Health XML exports and GPX trajectory files into a COPE-aligned knowledge graph. The system performs data ingestion, temporal alignment, semantic modelling, analytics, and visualisation.
-
-The goal is to enable researchers, clinicians, and data scientists to study personal health trajectories using interoperable semantic standards.
+This repository provides an end-to-end pipeline that converts wearable device data including geographic files into a COPE-aligned (namespace: https://purl.archive.org/cope#) knowledge graph. The system performs data ingestion, temporal alignment, semantic modelling, analytics, and visualisation. The goal is to enable researchers, clinicians, and data scientists to study personal health trajectories using interoperable semantic standards.
 
 **Key Features**
 
@@ -31,19 +29,17 @@ The goal is to enable researchers, clinicians, and data scientists to study pers
         cope:value "952" .
 
     The KG uses:
-    
-    cope:Observation for health metrics
-    cope:Activity for workouts
-    cope:Trajectory for GPX data
-    cope:Record to represent Apple Health entries
+        cope:Observation for health metrics
+        cope:Activity for workouts
+        cope:Trajectory for GPX data
+        cope:Record to represent Apple Health entries
 
 4. Analytics Layer
     The knowledge graph supports advanced analytics, including:
-    
-    - HRV and heart rate trends
-    - Activity and workout summaries
-    - Apple Watch fitness metrics
-    - Anomaly detection through statistical or semantic methods
+        - HRV and heart rate trends
+        - Activity and workout summaries
+        - Apple Watch fitness metrics
+        - Anomaly detection through statistical or semantic methods
 
 5. Visualisation Tools
 
