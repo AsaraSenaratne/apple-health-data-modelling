@@ -87,8 +87,9 @@ pip install -r requirements.txt
 
 **Usage**
 
-Run full pipeline
-python run_pipeline.py --xml data/export.xml --gpx data/gpx/
+To run the full pipeline:
+
+python pipeline.py --xml <wearable_device_data_file> <workout_routes_folder>
 
 
 **Citation**
