@@ -12,6 +12,9 @@ Complete pipeline COPE-aligned:
 Usage:
     python cope_full_pipeline_2021.py export.xml workout-routes/
 
+Data:
+    You can use any Apple Health data exports
+
 Author:
     Asara Senaratne
 """
