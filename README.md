@@ -91,6 +91,8 @@ To run the full pipeline:
 
 python pipeline.py --xml <wearable_device_data_file> <workout_routes_folder>
 
+**Data**
+Any Apple Health data export works with this implementation
 
 **Citation**
 
